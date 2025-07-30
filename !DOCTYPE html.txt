@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Empresa angolana especializada em comércio geral, logística e consultoria.">
+    <meta property="og:title" content="Medcalungo Comércio Geral" />
+    <meta property="og:description" content="Serviços de comércio, logística e consultoria em Angola." />
+    <title>Medcalungo Comércio Geral</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 6px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-top: 5px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px 15px;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #e9ecef;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Medcalungo Comércio Geral</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre a Medcalungo</h2>
+        <p>A Medcalungo Comércio Geral é uma empresa dedicada a oferecer produtos e serviços de qualidade para atender diversas necessidades comerciais em Angola. Com uma equipe especializada, buscamos excelência e satisfação dos nossos clientes.</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços Oferecidos</h2>
+        <ul>
+            <li>Comércio geral de produtos diversos</li>
+            <li>Distribuição logística e entrega rápida</li>
+            <li>Consultoria para aquisição e importação</li>
+            <li>Atendimento personalizado para empresas e clientes finais</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Tem alguma dúvida ou deseja mais informações? Preencha o formulário abaixo ou entre em contato diretamente.</p>
+        
+        <form action="mailto:contacto@medcalungo.co.ao" method="post" enctype="text/plain">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome" />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu email" />
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Escreva sua mensagem..."></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p>Telefone: +244 999 000 111</p>
+        <p>Email: <a href="mailto:contacto@medcalungo.co.ao">contacto@medcalungo.co.ao</a></p>
+        <p>Endereço: Rua Principal, Ondjiva, Cunene - Angola</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Medcalungo Comércio Geral. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
